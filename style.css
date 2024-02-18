@@ -1,10 +1,27 @@
 *{
     box-sizing: border-box;
 }
-h2,h5{
+
+h5{
     text-decoration: underline;
     
 }
+h2{
+font-size: 30px;
+background-color: orangered;
+height: 150px;
+}
 p{
     line-height: 20px;
+}
+.bg-image {
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* 100% de la hauteur de la fenêtre */
+    opacity: 1;
+}
+.preload-image {
+    display: none;
+    background-image:url('img1.jpg');
 }
